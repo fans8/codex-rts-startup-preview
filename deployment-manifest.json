@@ -1,7 +1,7 @@
 {
-  "sourceId": "0fac560bb1c2c000188b4e360051aaccba381dc47e0a1a304b807ec8b19d4f6d",
-  "entry": "/codex-rts-startup-preview/c/play/",
-  "version": "2026.11.24-code-12-51e-r3-startup-c",
+  "sourceId": "8392ed601626da9d2b03edc9a1b79b2da5d3ff57db072206f96d96cd48bc1fd3",
+  "entry": "/codex-rts-startup-preview/f/play/",
+  "version": "2026.11.24-code-12-51e-r3-startup-f",
   "purpose": "isolated startup performance preview",
   "files": [
     {
@@ -333,6 +333,337 @@
       "path": "c/release-version.json",
       "bytes": 496,
       "sha256": "8bae5ff653dbd6b76f634b83d6aabd74dc93b74d194d9b1ffc73008da4cec38f"
+    },
+    {
+      "path": "f/host/chunks/ReplayBrowserOverlay-226c7138.js",
+      "bytes": 7555,
+      "sha256": "c5e8912207756e37ddc0485f5460ca49f5a6fb97250320c26207926276879c1f"
+    },
+    {
+      "path": "f/host/chunks/ReplayOperationOverlay-ac8b54b3.js",
+      "bytes": 1755,
+      "sha256": "594df7259cbd6727495e6682a33eedf58cda65dcdc25ffdbdf922980464036a7"
+    },
+    {
+      "path": "f/host/chunks/ReplayPlaybackPanel-fd66ee06.js",
+      "bytes": 3518,
+      "sha256": "eca78d70a89d5516d92483f091261a03280132474a3113ed9c7da7787af1ff83"
+    },
+    {
+      "path": "f/host/chunks/armoryRuntimeVisualPilot-f236f018.js",
+      "bytes": 111864,
+      "sha256": "96a5a564a7d4a2bf702ed2c8c93c647ac35e64719568c7400e4034860d66146d"
+    },
+    {
+      "path": "f/host/chunks/barracksOwnerColorSemanticMaskRuntimePilot-52c0d2e6.js",
+      "bytes": 91970,
+      "sha256": "1f7f33695750ad6fac3cefded9733bc75a3eb41132c4eda80c27446ebf1d41dc"
+    },
+    {
+      "path": "f/host/chunks/bunkerGarrisonRuntimeAssetUrls-862ca088.js",
+      "bytes": 15747,
+      "sha256": "8e013894cdef228832be5b1952e76ac52247358a48463e0f3c496248331fb0ad"
+    },
+    {
+      "path": "f/host/chunks/dreadnoughtAudioRuntime-33e074f22989.js",
+      "bytes": 13819,
+      "sha256": "33e074f22989cee7f32933ac6fbd750c959620063d6d5166028a0337351d36e5"
+    },
+    {
+      "path": "f/host/chunks/geyserRefineryRuntimeVisualPilot-219ba65e.js",
+      "bytes": 125014,
+      "sha256": "a0fc7867b41d451288e4438c6afe11383884e3333065a170c983fcc792ee781a"
+    },
+    {
+      "path": "f/host/chunks/mineralFieldRuntimeVisualPilot-201ecb74.js",
+      "bytes": 56925,
+      "sha256": "2e335659fc8d76f857276a4d8f91e76de11c1b0ce9f6c42a6274e819a15db5d7"
+    },
+    {
+      "path": "f/host/chunks/raiderDeathWreckRuntimePilot-5a6d5e63.js",
+      "bytes": 180079,
+      "sha256": "9141d9854f2e9b85808f694ab81d9d7b753332565c86b2685ca8b2e923c6fc2b"
+    },
+    {
+      "path": "f/host/chunks/scienceFacilityRuntimeVisualPilot-0ce20323.js",
+      "bytes": 153688,
+      "sha256": "2f1d35639c8309828bf73e1ffbbcb87d758e86f26ac73363a51c72253c8551a6"
+    },
+    {
+      "path": "f/host/chunks/semanticOwnerPresentationCanvas-4ed993c7.js",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "f/host/chunks/soldierOwnerColorSemanticMaskRuntimePilot-69c0b959.js",
+      "bytes": 1028397,
+      "sha256": "b09dd4326d2e0bfd6a3e1c188bb4cded62f2bd9d54c47158d46197aa18d67446"
+    },
+    {
+      "path": "f/host/chunks/starportControlTowerV1Renderer-e6088d87.js",
+      "bytes": 16929,
+      "sha256": "466927ab849ca0667bcce0999c27ecec2bda5733825d3f1e7d20b122df2c5d8c"
+    },
+    {
+      "path": "f/host/chunks/unitAnimationCandidateSprites-c95a4263.js",
+      "bytes": 38522,
+      "sha256": "29b3c3e5cceee1f1dddde402efaa96668be237c6495616885ef99ce83896e838"
+    },
+    {
+      "path": "f/host/chunks/workerModularCargoRuntimePilot-72cb40e6.js",
+      "bytes": 801801,
+      "sha256": "ab9b8d09de37ef28a46dc719fbca94a12abccad799b47442e705ad77029e6c05"
+    },
+    {
+      "path": "f/host/chunks/workerOwnerColorSemanticMaskRuntimePilot-5b21c385.js",
+      "bytes": 1036993,
+      "sha256": "b1f187687f50fbccbdcacfb0863999f6a5206c2f864aa1d3c1f8cadb570a1d8d"
+    },
+    {
+      "path": "f/host/game.js",
+      "bytes": 8513519,
+      "sha256": "f0a18e3437666ec58dbcf7037a4fd2e29773d52d71fb3eeac2f47dedeb63552b"
+    },
+    {
+      "path": "f/host/startup-transfer.mjs",
+      "bytes": 324067,
+      "sha256": "589de939c99b918bba7bf0017bf2875123336a65763d0bd14e6e2add466cdcab"
+    },
+    {
+      "path": "f/loading-details.css",
+      "bytes": 903,
+      "sha256": "78373f9c25103455e385e3bc235944c025bc92997beccb96c1ffbe093384a6b0"
+    },
+    {
+      "path": "f/packs/audio-12-08258f17a32745bc.bin",
+      "bytes": 3139053,
+      "sha256": "08258f17a32745bca89a19f8037e06dbd9015f5838ace99f872aab087e70573f"
+    },
+    {
+      "path": "f/packs/audio-12-32e1c173cd21c83b.bin",
+      "bytes": 3128589,
+      "sha256": "32e1c173cd21c83b5c03c2e0a67035522c55958af0524dcbfb746d417d73df05"
+    },
+    {
+      "path": "f/packs/audio-12-7b8bdb7d00db711a.bin",
+      "bytes": 2676321,
+      "sha256": "7b8bdb7d00db711a507880a359c8df15fbbe443b59f71653c84e545ded0d32af"
+    },
+    {
+      "path": "f/packs/audio-12-9af182e1063154fd.bin",
+      "bytes": 3139226,
+      "sha256": "9af182e1063154fd95c551a66eaa517d212fa8d81711c588aaa3f41b33c73e01"
+    },
+    {
+      "path": "f/packs/audio-12-a84ca8a51df3291c.bin",
+      "bytes": 1847230,
+      "sha256": "a84ca8a51df3291c04b272eb234b5727be2816836f786264e4c47e0111b95fb2"
+    },
+    {
+      "path": "f/packs/audio-12-e8a023425b810340.bin",
+      "bytes": 2926878,
+      "sha256": "e8a023425b8103409479f17aec2910468a5c1a756e4b66aef033cef6f122ac16"
+    },
+    {
+      "path": "f/packs/image-1-01be63cb7e7c14a7.bin",
+      "bytes": 2996835,
+      "sha256": "01be63cb7e7c14a7adf8012cfb3b38d2b88dafb37d86f08137ba34dfed62a55e"
+    },
+    {
+      "path": "f/packs/image-1-10c62ff60a2fdc10.bin",
+      "bytes": 3107710,
+      "sha256": "10c62ff60a2fdc107236c4b468d574482077c3c1fb999d94c4c733dc7249826c"
+    },
+    {
+      "path": "f/packs/image-1-11ce2202f74f5130.bin",
+      "bytes": 3088060,
+      "sha256": "11ce2202f74f51305ed6bd7be4fbf9a977f01e61b400f38dbb0e79d3bc2b35ea"
+    },
+    {
+      "path": "f/packs/image-1-5c5ce7671cfaef2d.bin",
+      "bytes": 2675995,
+      "sha256": "5c5ce7671cfaef2dc0ea706144906242cdb81135e824e80d9cac1397f86b25bb"
+    },
+    {
+      "path": "f/packs/image-1-67f65a8d7d7c0285.bin",
+      "bytes": 3139726,
+      "sha256": "67f65a8d7d7c0285b0b7147928f360588c26762a2a17edd954157f120e2adbc4"
+    },
+    {
+      "path": "f/packs/image-1-9222eff8af669a30.bin",
+      "bytes": 2801000,
+      "sha256": "9222eff8af669a300f8f81d85a532e4b3a09f9f33d6a347210134cc84be732f4"
+    },
+    {
+      "path": "f/packs/image-1-94d990af34917596.bin",
+      "bytes": 2766322,
+      "sha256": "94d990af3491759651476ebbabf2aa3f7a3d994d664a8b1e1026c7e1f16d6918"
+    },
+    {
+      "path": "f/packs/image-1-965d1b2b9e2fa4d2.bin",
+      "bytes": 2605038,
+      "sha256": "965d1b2b9e2fa4d2a0eb1259c57d233fdd30db987f488d07bf97ea61e1cfdd52"
+    },
+    {
+      "path": "f/packs/image-1-a06b1f482c95dee5.bin",
+      "bytes": 548794,
+      "sha256": "a06b1f482c95dee50cb36dbcfa8f0ac8baf3721b10206a692bfbab262251f028"
+    },
+    {
+      "path": "f/packs/image-12-18a77e101dc1713e.bin",
+      "bytes": 2514819,
+      "sha256": "18a77e101dc1713e055b9b22a3a00c78784ac8883176189481d1310f6fd76ffd"
+    },
+    {
+      "path": "f/packs/image-12-3520ee6d0f777ccb.bin",
+      "bytes": 3009038,
+      "sha256": "3520ee6d0f777ccb05266e9966ba933e5b4016c475bd5d6f16ab67c0d27df3df"
+    },
+    {
+      "path": "f/packs/image-12-4bcf1a4b8e053df3.bin",
+      "bytes": 3105714,
+      "sha256": "4bcf1a4b8e053df3044f7b14627544afac5c4b3a6b4495c05bb4071fce89ff74"
+    },
+    {
+      "path": "f/packs/image-12-7b48d37347f28bef.bin",
+      "bytes": 298386,
+      "sha256": "7b48d37347f28bef1f04f715f78ed0df7ef4d1280937255adf988ade1b580233"
+    },
+    {
+      "path": "f/packs/image-12-bb05e348c18a1753.bin",
+      "bytes": 2595838,
+      "sha256": "bb05e348c18a17531e8c5343d8fd8890717145f35580067686045a311b4e4b05"
+    },
+    {
+      "path": "f/packs/image-2-036c2a324b932cf0.bin",
+      "bytes": 2693532,
+      "sha256": "036c2a324b932cf0507efde1e0b3c5be81470905e8be318c88ffe44fd03c4e0f"
+    },
+    {
+      "path": "f/packs/image-2-0780a39a15376018.bin",
+      "bytes": 3400078,
+      "sha256": "0780a39a15376018c93e842e899cadc4466ff401ae4d9a2d8bcf7ca2ff507b2e"
+    },
+    {
+      "path": "f/packs/image-2-22e7027c99ea33ac.bin",
+      "bytes": 427996,
+      "sha256": "22e7027c99ea33acb86cc1bd510215dcaca7ff16bb7f23372fb6fc8159a7f199"
+    },
+    {
+      "path": "f/packs/image-2-37f336b7e40c9eea.bin",
+      "bytes": 2709673,
+      "sha256": "37f336b7e40c9eea976fe7c665ce2e0c6b939f57b248ff15ac4a0fadb32ee2b6"
+    },
+    {
+      "path": "f/packs/image-2-37f416a31f2076ce.bin",
+      "bytes": 3073656,
+      "sha256": "37f416a31f2076ce775c1db9710658bfb6c51b0995f07bc374c7e37cd477711e"
+    },
+    {
+      "path": "f/packs/image-2-476a2b2906abd6e4.bin",
+      "bytes": 1650606,
+      "sha256": "476a2b2906abd6e445bc4390f29c1ce63c305a1aba4fb051741212d14637f24f"
+    },
+    {
+      "path": "f/packs/image-2-4a92655b83c6fd65.bin",
+      "bytes": 2541087,
+      "sha256": "4a92655b83c6fd65561450e6b8a7e6591c41f6bcd4fe110e873e01ea7202235f"
+    },
+    {
+      "path": "f/packs/image-2-4fc95bcc49029943.bin",
+      "bytes": 2969460,
+      "sha256": "4fc95bcc4902994305403ab962b84a6dc5ce76b38ff3958592fbb75c98a7c99c"
+    },
+    {
+      "path": "f/packs/image-2-51236b7d23510de2.bin",
+      "bytes": 3115622,
+      "sha256": "51236b7d23510de2f1fab34f8265c19cad41abc34034e14ff17c0f6320cfd633"
+    },
+    {
+      "path": "f/packs/image-2-593b4ee5ceea9898.bin",
+      "bytes": 3083326,
+      "sha256": "593b4ee5ceea98989f0cf9cf80d9d728d3ad6a2b5e3132459e1a0b43a8758e7c"
+    },
+    {
+      "path": "f/packs/image-2-622531bece31472d.bin",
+      "bytes": 2912654,
+      "sha256": "622531bece31472d132fded1b02cecbed901d31ee6830b9b4f3c0c8b6b69f279"
+    },
+    {
+      "path": "f/packs/image-2-650b8f6b1c6ded0b.bin",
+      "bytes": 3138058,
+      "sha256": "650b8f6b1c6ded0ba3d62121bfd85877f199fce3a2f41df7a62deb98328f5251"
+    },
+    {
+      "path": "f/packs/image-2-7b614530a08a171d.bin",
+      "bytes": 3110946,
+      "sha256": "7b614530a08a171d4db4d280c8899db0ec45eb46021c55d6a5362dcf3b418e20"
+    },
+    {
+      "path": "f/packs/image-2-7b97811e72d57e82.bin",
+      "bytes": 2942368,
+      "sha256": "7b97811e72d57e82fec7182aa5b713936804193ce7c4bd103a5cbd05cc720f49"
+    },
+    {
+      "path": "f/packs/image-2-7ec7d1e8fd93bced.bin",
+      "bytes": 2839544,
+      "sha256": "7ec7d1e8fd93bced4b3342ded6b01ad4401ac1ff7fa80096293799e04d87423f"
+    },
+    {
+      "path": "f/packs/image-2-80ca6e4f3727d72e.bin",
+      "bytes": 1331160,
+      "sha256": "80ca6e4f3727d72edcfc9583253c688f112a6f8d1c45b09cb730191b930984ea"
+    },
+    {
+      "path": "f/packs/image-2-a42bb452cb00f6a2.bin",
+      "bytes": 4200600,
+      "sha256": "a42bb452cb00f6a29d5860391d01cdaa43f1d24bcd429b1b7ba339a1a452bb77"
+    },
+    {
+      "path": "f/packs/image-2-b227219748548067.bin",
+      "bytes": 3101680,
+      "sha256": "b227219748548067933fd0de3093d51753c6129e57ffecbdc2402a21482b911a"
+    },
+    {
+      "path": "f/packs/image-2-bd506409e5f50517.bin",
+      "bytes": 2555683,
+      "sha256": "bd506409e5f505173b3303c46f76160d971230eefe4a85dcb70ab74acc418087"
+    },
+    {
+      "path": "f/packs/image-2-be34ecb41ec98b04.bin",
+      "bytes": 2959170,
+      "sha256": "be34ecb41ec98b047104e7339e40b56f0aefee95472110105be978f638f24a11"
+    },
+    {
+      "path": "f/packs/image-2-bfd5931c1d8a37c5.bin",
+      "bytes": 3103239,
+      "sha256": "bfd5931c1d8a37c54079bfe1f366f24a426fe56a71c35a719e66b23a1fcfc60b"
+    },
+    {
+      "path": "f/packs/image-2-c046514d6aa3b514.bin",
+      "bytes": 2612104,
+      "sha256": "c046514d6aa3b514da28f23355f4a36b50dbcf6b7152470cc0f452f412e67ef9"
+    },
+    {
+      "path": "f/packs/image-2-e9e6e38236a24e25.bin",
+      "bytes": 2993016,
+      "sha256": "e9e6e38236a24e25dc1277824130253d8740638601e3425c7d1de272f15a6d89"
+    },
+    {
+      "path": "f/packs/image-2-eeb1483c3f7d0ddd.bin",
+      "bytes": 2921225,
+      "sha256": "eeb1483c3f7d0dddb774e6149ee9eb1922beb20e8b2b2ef82b05bc60ed4be326"
+    },
+    {
+      "path": "f/play/index.html",
+      "bytes": 611,
+      "sha256": "1e8bf8b0235bb685cc67717d4d98169399b9f6c60bdd1c82f7926eb1274ca118"
+    },
+    {
+      "path": "f/release-version.json",
+      "bytes": 496,
+      "sha256": "edf2ea0f029c40f594442af1602a220b22d531a535af11d81ec8a582c3d8a91b"
     }
-  ]
+  ],
+  "retainedComparisonSourceId": "0fac560bb1c2c000188b4e360051aaccba381dc47e0a1a304b807ec8b19d4f6d"
 }
