@@ -1,0 +1,36 @@
+name: Publish isolated startup preview
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: isolated-startup-preview
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify runtime whitelist
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib
+          spec=json.load(open('deployment-manifest.json'))
+          root=pathlib.Path('site')
+          assert {str(p.relative_to(root)) for p in root.rglob('*') if p.is_file()}=={r['path'] for r in spec['files']}
+          for r in spec['files']:
+              p=root/r['path']
+              assert p.is_file() and not p.is_symlink()
+              b=p.read_bytes()
+              assert len(b)==r['bytes'] and hashlib.sha256(b).hexdigest()==r['sha256']
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment
